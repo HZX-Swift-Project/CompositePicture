@@ -6,8 +6,12 @@
 //
 
 import UIKit
-
+protocol DDPictureListViewDelegate {
+    func didSelectItem(_ image: UIImage!, isCover: Bool)
+}
 class DDPictureListView: UIView {
+    var delegate: DDPictureListViewDelegate?
+    
     private let cellReusedId = "pictureCell"
     // 背景图片数组
     var coverList: [String] {
@@ -51,7 +55,7 @@ class DDPictureListView: UIView {
             make.edges.equalTo(UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0))
         }
         collectionView.showsHorizontalScrollIndicator = false
-        collectionView.register(PictureCollectionViewCell.self, forCellWithReuseIdentifier: cellReusedId)
+        collectionView.register(DDPictureCollectionViewCell.self, forCellWithReuseIdentifier: cellReusedId)
         collectionView.delegate = self
         collectionView.dataSource = self
     }
@@ -72,10 +76,15 @@ extension DDPictureListView: UICollectionViewDelegate, UICollectionViewDataSourc
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellReusedId, for: indexPath) as! PictureCollectionViewCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellReusedId, for: indexPath) as! DDPictureCollectionViewCell
         cell.pictureImageView.image = UIImage(named: pictureList[indexPath.item])
         cell.pictureImageView.contentMode = isCover ? .scaleAspectFill : .scaleAspectFit
         return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        guard let image = UIImage(named: pictureList[indexPath.item]) else { return }
+        delegate?.didSelectItem(image, isCover: isCover)
     }
 }
 

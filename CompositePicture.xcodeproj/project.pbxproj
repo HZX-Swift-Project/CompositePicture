@@ -12,7 +12,14 @@
 		4826B78A2886A5E200F76346 /* String+DDHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4826B7892886A5E200F76346 /* String+DDHelper.swift */; };
 		4826B78D2886A67D00F76346 /* DDColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4826B78C2886A67D00F76346 /* DDColor.swift */; };
 		4826B78F2886A80900F76346 /* DDDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4826B78E2886A80900F76346 /* DDDevice.swift */; };
-		4826B792288789FB00F76346 /* PictureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4826B790288789FB00F76346 /* PictureCollectionViewCell.swift */; };
+		4826B792288789FB00F76346 /* DDPictureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4826B790288789FB00F76346 /* DDPictureCollectionViewCell.swift */; };
+		4826B7972887A01000F76346 /* DDRightMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4826B7962887A01000F76346 /* DDRightMenuView.swift */; };
+		4826B79B2887D42700F76346 /* DDBaseEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4826B79A2887D42700F76346 /* DDBaseEditView.swift */; };
+		4826B79E2887D45300F76346 /* DDCustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4826B79C2887D45300F76346 /* DDCustomTextView.swift */; };
+		4826B79F2887D45300F76346 /* DDChooseColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4826B79D2887D45300F76346 /* DDChooseColorView.swift */; };
+		4826B7A728880F2400F76346 /* DDProgressHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4826B7A628880F2400F76346 /* DDProgressHud.swift */; };
+		4826B7A928880FA900F76346 /* DDFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4826B7A828880FA900F76346 /* DDFont.swift */; };
+		4826B7AB28896E7400F76346 /* DDPreViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4826B7AA28896E7400F76346 /* DDPreViewVC.swift */; };
 		48433B0928863EE9007BFD8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48433B0828863EE9007BFD8B /* AppDelegate.swift */; };
 		48433B0D28863EE9007BFD8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48433B0C28863EE9007BFD8B /* ViewController.swift */; };
 		48433B1028863EE9007BFD8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48433B0E28863EE9007BFD8B /* Main.storyboard */; };
@@ -20,7 +27,6 @@
 		48433B1528863EEB007BFD8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48433B1328863EEB007BFD8B /* LaunchScreen.storyboard */; };
 		48433B1D28863F32007BFD8B /* UIImage+DDHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48433B1C28863F32007BFD8B /* UIImage+DDHelper.swift */; };
 		48433B1F28864452007BFD8B /* DDPictureListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48433B1E28864452007BFD8B /* DDPictureListView.swift */; };
-		48433B212886469B007BFD8B /* DDAdapt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48433B202886469B007BFD8B /* DDAdapt.swift */; };
 		512C20E1AC9E470E5E74A326 /* Pods_CompositePicture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD810FC1CEC9D8ADADDC647 /* Pods_CompositePicture.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +36,14 @@
 		4826B7892886A5E200F76346 /* String+DDHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+DDHelper.swift"; sourceTree = "<group>"; };
 		4826B78C2886A67D00F76346 /* DDColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDColor.swift; sourceTree = "<group>"; };
 		4826B78E2886A80900F76346 /* DDDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDDevice.swift; sourceTree = "<group>"; };
-		4826B790288789FB00F76346 /* PictureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCollectionViewCell.swift; sourceTree = "<group>"; };
+		4826B790288789FB00F76346 /* DDPictureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDPictureCollectionViewCell.swift; sourceTree = "<group>"; };
+		4826B7962887A01000F76346 /* DDRightMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDRightMenuView.swift; sourceTree = "<group>"; };
+		4826B79A2887D42700F76346 /* DDBaseEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDBaseEditView.swift; sourceTree = "<group>"; };
+		4826B79C2887D45300F76346 /* DDCustomTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDCustomTextView.swift; sourceTree = "<group>"; };
+		4826B79D2887D45300F76346 /* DDChooseColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDChooseColorView.swift; sourceTree = "<group>"; };
+		4826B7A628880F2400F76346 /* DDProgressHud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDProgressHud.swift; sourceTree = "<group>"; };
+		4826B7A828880FA900F76346 /* DDFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDFont.swift; sourceTree = "<group>"; };
+		4826B7AA28896E7400F76346 /* DDPreViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDPreViewVC.swift; sourceTree = "<group>"; };
 		48433B0528863EE9007BFD8B /* CompositePicture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompositePicture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48433B0828863EE9007BFD8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48433B0C28863EE9007BFD8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +53,6 @@
 		48433B1628863EEB007BFD8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48433B1C28863F32007BFD8B /* UIImage+DDHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+DDHelper.swift"; sourceTree = "<group>"; };
 		48433B1E28864452007BFD8B /* DDPictureListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDPictureListView.swift; sourceTree = "<group>"; };
-		48433B202886469B007BFD8B /* DDAdapt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDAdapt.swift; sourceTree = "<group>"; };
 		ABD810FC1CEC9D8ADADDC647 /* Pods_CompositePicture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CompositePicture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1CF247607454C4D67BC08E1 /* Pods-CompositePicture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompositePicture.release.xcconfig"; path = "Target Support Files/Pods-CompositePicture/Pods-CompositePicture.release.xcconfig"; sourceTree = "<group>"; };
 		D30137951E73603CA6BA8CD3 /* Pods-CompositePicture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompositePicture.debug.xcconfig"; path = "Target Support Files/Pods-CompositePicture/Pods-CompositePicture.debug.xcconfig"; sourceTree = "<group>"; };
@@ -72,9 +84,9 @@
 		4826B78B2886A65E00F76346 /* Const */ = {
 			isa = PBXGroup;
 			children = (
-				48433B202886469B007BFD8B /* DDAdapt.swift */,
 				4826B78C2886A67D00F76346 /* DDColor.swift */,
 				4826B78E2886A80900F76346 /* DDDevice.swift */,
+				4826B7A828880FA900F76346 /* DDFont.swift */,
 			);
 			path = Const;
 			sourceTree = "<group>";
@@ -102,10 +114,16 @@
 			children = (
 				48433B0828863EE9007BFD8B /* AppDelegate.swift */,
 				48433B0C28863EE9007BFD8B /* ViewController.swift */,
+				4826B7AA28896E7400F76346 /* DDPreViewVC.swift */,
 				4826B78B2886A65E00F76346 /* Const */,
 				4826B78428869AA900F76346 /* Extension */,
 				48433B1E28864452007BFD8B /* DDPictureListView.swift */,
-				4826B790288789FB00F76346 /* PictureCollectionViewCell.swift */,
+				4826B7962887A01000F76346 /* DDRightMenuView.swift */,
+				4826B790288789FB00F76346 /* DDPictureCollectionViewCell.swift */,
+				4826B79A2887D42700F76346 /* DDBaseEditView.swift */,
+				4826B79D2887D45300F76346 /* DDChooseColorView.swift */,
+				4826B79C2887D45300F76346 /* DDCustomTextView.swift */,
+				4826B7A628880F2400F76346 /* DDProgressHud.swift */,
 				48433B0E28863EE9007BFD8B /* Main.storyboard */,
 				48433B1128863EEB007BFD8B /* Assets.xcassets */,
 				48433B1328863EEB007BFD8B /* LaunchScreen.storyboard */,
@@ -246,17 +264,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4826B79E2887D45300F76346 /* DDCustomTextView.swift in Sources */,
 				48433B1D28863F32007BFD8B /* UIImage+DDHelper.swift in Sources */,
-				4826B792288789FB00F76346 /* PictureCollectionViewCell.swift in Sources */,
+				4826B792288789FB00F76346 /* DDPictureCollectionViewCell.swift in Sources */,
 				48433B1F28864452007BFD8B /* DDPictureListView.swift in Sources */,
 				4826B78A2886A5E200F76346 /* String+DDHelper.swift in Sources */,
 				4826B78F2886A80900F76346 /* DDDevice.swift in Sources */,
+				4826B7A928880FA900F76346 /* DDFont.swift in Sources */,
 				4826B7882886A5BC00F76346 /* Color+DDHelper.swift in Sources */,
+				4826B7972887A01000F76346 /* DDRightMenuView.swift in Sources */,
 				48433B0D28863EE9007BFD8B /* ViewController.swift in Sources */,
+				4826B7AB28896E7400F76346 /* DDPreViewVC.swift in Sources */,
 				48433B0928863EE9007BFD8B /* AppDelegate.swift in Sources */,
 				4826B78628869AD900F76346 /* UIView+DDHelper.swift in Sources */,
+				4826B79B2887D42700F76346 /* DDBaseEditView.swift in Sources */,
+				4826B7A728880F2400F76346 /* DDProgressHud.swift in Sources */,
 				4826B78D2886A67D00F76346 /* DDColor.swift in Sources */,
-				48433B212886469B007BFD8B /* DDAdapt.swift in Sources */,
+				4826B79F2887D45300F76346 /* DDChooseColorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +435,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -439,6 +464,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

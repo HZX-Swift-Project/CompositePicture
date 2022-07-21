@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PictureCollectionViewCell: UICollectionViewCell {
+class DDPictureCollectionViewCell: UICollectionViewCell {
     
     lazy var pictureImageView: UIImageView = {
         let imageView = UIImageView()
