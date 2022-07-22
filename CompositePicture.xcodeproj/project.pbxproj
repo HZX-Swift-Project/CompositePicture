@@ -91,6 +91,26 @@
 			path = Const;
 			sourceTree = "<group>";
 		};
+		4826B7B0288A740700F76346 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4826B790288789FB00F76346 /* DDPictureCollectionViewCell.swift */,
+				48433B1E28864452007BFD8B /* DDPictureListView.swift */,
+				4826B7962887A01000F76346 /* DDRightMenuView.swift */,
+				4826B79D2887D45300F76346 /* DDChooseColorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4826B7B1288A741B00F76346 /* EditView */ = {
+			isa = PBXGroup;
+			children = (
+				4826B79A2887D42700F76346 /* DDBaseEditView.swift */,
+				4826B79C2887D45300F76346 /* DDCustomTextView.swift */,
+			);
+			path = EditView;
+			sourceTree = "<group>";
+		};
 		48433AFC28863EE9007BFD8B = {
 			isa = PBXGroup;
 			children = (
@@ -115,15 +135,11 @@
 				48433B0828863EE9007BFD8B /* AppDelegate.swift */,
 				48433B0C28863EE9007BFD8B /* ViewController.swift */,
 				4826B7AA28896E7400F76346 /* DDPreViewVC.swift */,
+				4826B7A628880F2400F76346 /* DDProgressHud.swift */,
+				4826B7B1288A741B00F76346 /* EditView */,
+				4826B7B0288A740700F76346 /* View */,
 				4826B78B2886A65E00F76346 /* Const */,
 				4826B78428869AA900F76346 /* Extension */,
-				48433B1E28864452007BFD8B /* DDPictureListView.swift */,
-				4826B7962887A01000F76346 /* DDRightMenuView.swift */,
-				4826B790288789FB00F76346 /* DDPictureCollectionViewCell.swift */,
-				4826B79A2887D42700F76346 /* DDBaseEditView.swift */,
-				4826B79D2887D45300F76346 /* DDChooseColorView.swift */,
-				4826B79C2887D45300F76346 /* DDCustomTextView.swift */,
-				4826B7A628880F2400F76346 /* DDProgressHud.swift */,
 				48433B0E28863EE9007BFD8B /* Main.storyboard */,
 				48433B1128863EEB007BFD8B /* Assets.xcassets */,
 				48433B1328863EEB007BFD8B /* LaunchScreen.storyboard */,
