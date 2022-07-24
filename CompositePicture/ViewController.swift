@@ -333,7 +333,7 @@ extension ViewController: DDPictureListViewDelegate {
         
         if let coverView = self.coverView {
             coverView.contenImage = coverImage
-            coverView.updateConstraints { make in
+            coverView.remakeConstraints { make in
                 make.center.equalTo(self.dashCutView)
                 if cutScale < imageScale {
                     // 纵向铺满

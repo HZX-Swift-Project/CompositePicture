@@ -12,9 +12,10 @@ class DDPreViewVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
+        
         guard let resultImage = resultImage else { return }
         let resultImageView = UIImageView()
-        resultImageView.backgroundColor = .green
+        resultImageView.backgroundColor = DD_GrayBgColor
         resultImageView.image = resultImage
         view.addSubview(resultImageView)
         resultImageView.makeConstraints { make in
